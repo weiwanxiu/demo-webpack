@@ -29,6 +29,10 @@ module.exports = {
                 test: /\.css$/,
                 loader: '"style-loader!css-loader"'
             }
+            { 
+                test: /\.scss$/, 
+                loader: 'style!css!sass?sourceMap'
+            },
         ]
     },
     //webpack插件项

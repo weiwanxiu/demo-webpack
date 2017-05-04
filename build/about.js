@@ -42,9 +42,16 @@
 /************************************************************************/
 /******/ ([
 /* 0 */
+/***/ (function(module, exports, __webpack_require__) {
+
+	let pubCss = __webpack_require__(1);
+	console.log("welcome to about");
+
+/***/ }),
+/* 1 */
 /***/ (function(module, exports) {
 
-	console.log("welcome to about");
+	console.log("pubJs");
 
 /***/ })
 /******/ ]);
